@@ -1,0 +1,26 @@
+{
+  "name": "osmus",
+  "version": "1.0.0",
+  "description": "A tech demo inspired by Osmos.  For more information read the article here: http://smus.com/multiplayer-html5-games-with-node",
+  "main": "client/index.html",
+  "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "nodejs server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trisscar1212/osmus.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trisscar1212/osmus/issues"
+  },
+    "engines": {
+	"node": "4.2.6"
+    },
+  "homepage": "https://github.com/trisscar1212/osmus#readme",
+  "dependencies": {
+    "socket.io": "^1.5.1"
+  }
+}
